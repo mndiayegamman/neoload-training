@@ -1,0 +1,8 @@
+GET https://petstore.octoperf.com/images/banner_dogs.gif HTTP/2.0
+accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+referer: https://petstore.octoperf.com/actions/Catalog.action
+accept-language: fr-FR,fr;q=0.5
+user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+accept-encoding: gzip, deflate
+cookie: JSESSIONID=EDCFC1203B853F95B29C7E886B75C0EF
+

@@ -1,0 +1,8 @@
+GET https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH HTTP/2.0
+accept: text/html, application/xhtml+xml, image/jxr, */*
+referer: https://petstore.octoperf.com/actions/Catalog.action
+accept-language: fr-FR,fr;q=0.5
+user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+accept-encoding: gzip, deflate
+cookie: JSESSIONID=EDCFC1203B853F95B29C7E886B75C0EF
+

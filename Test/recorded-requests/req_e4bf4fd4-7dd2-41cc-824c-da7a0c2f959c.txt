@@ -1,0 +1,6 @@
+GET https://petstore.octoperf.com/actions/Catalog.action HTTP/2.0
+accept: text/html, application/xhtml+xml, image/jxr, */*
+accept-language: fr-FR,fr;q=0.5
+user-agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+accept-encoding: gzip, deflate
+
