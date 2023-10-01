@@ -1,0 +1,59 @@
+<me-host browserBasedSupport="false" citrixSupport="false"
+    loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false" uid="localhost" version="2023.2.0;build=20230706-27">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Intel(R) Wireless-AC 9462"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="laptop-8m5eipug.lan">
+            <ip value="192.168.1.37"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2001:861:3887:12e0:2505:c4ae:b2c2:9568">
+            <ip value="2001:861:3887:12e0:2505:c4ae:b2c2:9568"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2001:861:3887:12e0:ecff:6896:aa9:ad63">
+            <ip value="2001:861:3887:12e0:ecff:6896:aa9:ad63"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:d84c:2c1a:fb6c:4a6e%wlan1">
+            <ip value="fe80:0:0:0:d84c:2c1a:fb6c:4a6e%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth7">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:614f:5f9e:a224:dde8%eth7">
+            <ip value="fe80:0:0:0:614f:5f9e:a224:dde8%eth7"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="www.jenkins.com">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="TAP-NordVPN Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:d446:ddb7:c1ad:90b3%eth0">
+            <ip value="fe80:0:0:0:d446:ddb7:c1ad:90b3%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:c45e:bacd:162:2914%wlan2">
+            <ip value="fe80:0:0:0:c45e:bacd:162:2914%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

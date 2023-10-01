@@ -1,0 +1,69 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/actions/Catalog.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/5c7b7cb7-970f-4a18-814d-a64cdb886104.zip"
+    slaProfileEnabled="false" thinkTime="18788"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5c7b7cb7-970f-4a18-814d-a64cdb886104">
+    <embedded-action>1e4bf869-4c90-4704-82bc-3281ac81b7b7</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_74d6c286-16a5-4221-9d91-ea9cbf3b96de.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/5c7b7cb7-970f-4a18-814d-a64cdb886104.zip"
+    recordedResponseCode="200" responseSize="3937"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="1e4bf869-4c90-4704-82bc-3281ac81b7b7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_915c394a-657d-4092-b190-3829f9e54107.0.0.0.0.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_915c394a-657d-4092-b190-3829f9e54107.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="0" matchNumberAdv="1"
+        matchNumberSimple="0" name="sous_categoryId"
+        refererUid="fb28e2fb-f8a5-4caa-8059-7bee6bb29199"
+        regExp="productId=(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="productId="
+        template="$1$" templateAdv="$1$"
+        uid="8794c1e0-8b44-4744-a03d-55eb42d67db9" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;/td>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="name_product"
+        refererUid="fb28e2fb-f8a5-4caa-8059-7bee6bb29199"
+        regExp="&lt;/a>&lt;/td>\n\t\t\t&lt;td>(.*?)&lt;/td>"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="&lt;/a>&lt;/td>&#xa;&#x9;&#x9;&#x9;&lt;td>"
+        template="$1$" templateAdv="$1$"
+        uid="eb8c3751-0696-497f-b81b-d3a4eba504e1" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="viewCategory"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="categoryId"
+        recordRawValue="DOGS" separator="=" value="${categoryId}" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="cookie" value="JSESSIONID=7720789322B48A392E94E674C7D00450"/>
+    <header name="accept-language" value="fr-FR,fr;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Sep 2023 10:22:30 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 3937&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="7"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

@@ -1,0 +1,6 @@
+<variable-modifier-action definedMode="1" dest-variable-name="login"
+    name="Save_to_Shared_Queue_Variable_1"
+    shared-variable-name="SharedQueueVariable" sharedMode="3"
+    src-variable-name="${animalId}"
+    uid="34d1c703-12e5-4495-99f0-17a386b37a36"
+    variable-category="SHARED" variable-name=""/>

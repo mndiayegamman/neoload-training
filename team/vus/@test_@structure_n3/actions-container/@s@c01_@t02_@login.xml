@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SC01_T02_Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="209a04dc-7e6e-442a-be38-d0611d9e5394" weightsEnabled="false">
+    <weighted-embedded-action uid="4a03cc53-9892-470b-9377-ba1a3ff9ca2a"/>
+    <weighted-embedded-action uid="91c5a4a7-69d3-444b-a395-a214d00e93f7"/>
+</basic-logical-action-container>

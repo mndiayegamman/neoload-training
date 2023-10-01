@@ -1,0 +1,86 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/actions/Account.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n3/%resources%/recorded-artifacts/37b1f9f7-c166-47b6-8796-4d15d0a479f2.zip"
+    slaProfileEnabled="false" thinkTime="17034"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="37b1f9f7-c166-47b6-8796-4d15d0a479f2">
+    <embedded-action>6e9c30f2-23b6-495c-af8c-9362a57cca73</embedded-action>
+    <embedded-action>f104aabe-ae0f-477d-8b15-9937ca145122</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_37b1f9f7-c166-47b6-8796-4d15d0a479f2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Account.action"
+    path="/actions/Account.action" postType="6"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n3/%resources%/recorded-artifacts/37b1f9f7-c166-47b6-8796-4d15d0a479f2.zip"
+    recordedResponseCode="302"
+    refererUid="b797c0fb-69c5-483d-af88-06e384265bfc" responseSize="0"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="6e9c30f2-23b6-495c-af8c-9362a57cca73" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6e9c30f2-23b6-495c-af8c-9362a57cca73</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6e9c30f2-23b6-495c-af8c-9362a57cca73.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="signoff"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=C8B8BB43D565C28BB73CD0261C5093D5"/>
+    <header name="accept-language" value="fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Microsoft Edge&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Tue, 19 Sep 2023 14:41:49 GMT&#xd;
+Content-Length: 0&#xd;
+location: /actions/Catalog.action&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorContent="Sign Out"
+        extractorOccurence="3" extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postType="6"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n3/%resources%/recorded-artifacts/37b1f9f7-c166-47b6-8796-4d15d0a479f2.zip"
+    recordedResponseCode="200"
+    refererUid="6e9c30f2-23b6-495c-af8c-9362a57cca73"
+    responseSize="4503" serverUid="petstore.octoperf.com"
+    slaProfileEnabled="false" uid="f104aabe-ae0f-477d-8b15-9937ca145122" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f104aabe-ae0f-477d-8b15-9937ca145122.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f104aabe-ae0f-477d-8b15-9937ca145122.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=C8B8BB43D565C28BB73CD0261C5093D5"/>
+    <header name="accept-language" value="fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Microsoft Edge&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 19 Sep 2023 14:41:49 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 4503&#xd;
+set-cookie: JSESSIONID=DB89A95A8F586858B74A9985A3E51D99; Path=/; HttpOnly&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

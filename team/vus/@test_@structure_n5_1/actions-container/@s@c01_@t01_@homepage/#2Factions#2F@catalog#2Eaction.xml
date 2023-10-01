@@ -1,0 +1,49 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/actions/Catalog.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/02c43655-5ea3-4470-93c3-3248ac3018c2.zip"
+    slaProfileEnabled="false" thinkTime="8093"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="02c43655-5ea3-4470-93c3-3248ac3018c2">
+    <embedded-action>ca5b8850-f8a1-4cc3-b43e-d73984f602b1</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_36b83829-2e9c-4c0f-b2ff-4accf6d1590f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/02c43655-5ea3-4470-93c3-3248ac3018c2.zip"
+    recordedResponseCode="200" responseSize="5119"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="ca5b8850-f8a1-4cc3-b43e-d73984f602b1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e4bf4fd4-7dd2-41cc-824c-da7a0c2f959c.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e4bf4fd4-7dd2-41cc-824c-da7a0c2f959c.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="0" matchNumberAdv="1"
+        matchNumberSimple="0" name="categoryId"
+        refererUid="958ed4a7-d51b-4789-9a0f-4178a70b482c"
+        regExp="&amp;categoryId=(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="&amp;categoryId="
+        template="$1$" templateAdv="$1$"
+        uid="254729ba-572a-4ac2-a226-e1fea555afab" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="accept-language" value="fr-FR,fr;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Sep 2023 10:21:49 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 5119&#xd;
+set-cookie: JSESSIONID=7720789322B48A392E94E674C7D00450; Path=/; HttpOnly&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

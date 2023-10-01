@@ -1,0 +1,6 @@
+<lg-host browserBasedSupport="false" citrixSupport="false"
+    hostname="PORTIFY-4DV62B3:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="0a9e5641-11bd-4839-8f89-2818b6c54e26" version="8.2.2;build=20221121-72">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

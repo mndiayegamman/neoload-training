@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SC01_T05_Animal" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="44f42bdb-be1e-4512-9e80-cc249f582b06" weightsEnabled="false">
+    <weighted-embedded-action uid="e3c0c059-eeb2-4acd-b77b-ed64805ed6e4"/>
+</basic-logical-action-container>

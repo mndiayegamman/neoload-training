@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=Test
+project.version=8.8
+project.original.version=8.8
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2023.2.0
+project.is-open-test-settings-after-upload=false
+project.id=288a74d0-a470-4157-82ef-a4f7bafa4dee
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/mndiayegamman/neoload-training.git

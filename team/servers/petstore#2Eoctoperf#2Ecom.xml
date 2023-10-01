@@ -1,0 +1,4 @@
+<http-server hostname="petstore.octoperf.com" port="443" ssl="true"
+    uid="petstore.octoperf.com" urlrewriting-argument-name="jsessionid"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

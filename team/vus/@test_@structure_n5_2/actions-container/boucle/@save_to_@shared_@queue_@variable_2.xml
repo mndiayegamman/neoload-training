@@ -1,0 +1,6 @@
+<variable-modifier-action definedMode="1" dest-variable-name="login"
+    name="Save_to_Shared_Queue_Variable_2"
+    shared-variable-name="SharedQueueVariable" sharedMode="3"
+    src-variable-name="${price_product}"
+    uid="35ce7ac1-5caa-4f51-92e9-c0bb559c3067"
+    variable-category="SHARED" variable-name=""/>

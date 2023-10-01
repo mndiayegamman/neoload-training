@@ -1,0 +1,104 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/actions/Catalog.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/bad294c2-2f23-412f-b0fc-947e0c9940f8.zip"
+    slaProfileEnabled="false" thinkTime="10105"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="bad294c2-2f23-412f-b0fc-947e0c9940f8">
+    <embedded-action>f4ff791e-377f-4e37-93a5-343b362325ee</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_dafa93d3-1a29-440f-ab2a-5e9116b67af9.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/bad294c2-2f23-412f-b0fc-947e0c9940f8.zip"
+    recordedResponseCode="200" responseSize="3837"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="f4ff791e-377f-4e37-93a5-343b362325ee" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d3abba92-145c-4bbe-bc3c-71564e891d44.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d3abba92-145c-4bbe-bc3c-71564e891d44.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="0" matchNumberAdv="1"
+        matchNumberSimple="0" name="animalId"
+        refererUid="4661c5ba-ab42-495e-8ad0-ea9231863c86"
+        regExp="itemId=(.*?)&quot;" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="itemId=" template="$1$" templateAdv="$1$"
+        uid="4033a377-ab5f-4994-b8a1-ac7cac82afa9" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;td>&lt;a href=&quot;/actions/Cart.action?addItemToCart=&amp;amp;workingItemId=${animalId}&quot; class=&quot;Button&quot;>Add to Cart&lt;/a>&lt;/td>"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="ExtractedString"
+        refererUid="4661c5ba-ab42-495e-8ad0-ea9231863c86"
+        regExp="&lt;td>${sous_categoryId}&lt;/td>([^^]*?)(\s*?)&lt;td>&lt;a href=&quot;/actions/Cart\.action\?addItemToCart=&amp;amp;workingItemId=${animalId}&quot; class=&quot;Button&quot;>Add to Cart&lt;/a>&lt;/td>"
+        regExpAdv="&lt;td>K9-BD-01&lt;/td>([^^]*?)(\s*?)&lt;td>&lt;a href=&quot;/actions/Cart\.action\?addItemToCart=&amp;amp;workingItemId=EST-6&quot; class=&quot;Button&quot;>Add to Cart&lt;/a>&lt;/td>"
+        setDefaultValue="true"
+        startsWithSimple="&lt;td>${sous_categoryId}&lt;/td>"
+        template="$1$" templateAdv="$1$$2$"
+        uid="aef3a1e5-d61e-4de2-8d22-86c8207cb4a0" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="7"/>
+        <variable-extractor-group extract="false" occurs="1" pattern="" type="1"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;/td>"
+        extractFromVarName="${ExtractedString}" extractFromVarNameAdv=""
+        extractFromVarNameSimple="${ExtractedString}" extractType="2"
+        extractTypeAdv="0" extractTypeSimple="2" matchNumber="1"
+        matchNumberAdv="1" matchNumberSimple="1" name="price_product"
+        refererUid="4661c5ba-ab42-495e-8ad0-ea9231863c86"
+        regExp="&lt;td>(.*?)(\d*?)&lt;/td>" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="&lt;td>"
+        template="$1$$2$" templateAdv="$1$"
+        uid="4d423eb6-5566-41fa-be8f-953d1d2240f9" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="3"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;/td>"
+        extractFromVarName="${ExtractedString}" extractFromVarNameAdv=""
+        extractFromVarNameSimple="${ExtractedString}" extractType="2"
+        extractTypeAdv="0" extractTypeSimple="2" matchNumber="1"
+        matchNumberAdv="1" matchNumberSimple="1"
+        name="description_product"
+        refererUid="4661c5ba-ab42-495e-8ad0-ea9231863c86"
+        regExp="&lt;td>([a-zA-Z]*?)(.*?)([^^]*?)&lt;/td>"
+        regExpAdv="&lt;td>K9-BD-01&lt;/td>\n\t\t\t&lt;td>(.*?)([^^]*?)&lt;/td>"
+        setDefaultValue="true" startsWithSimple="&lt;td>"
+        template="$1$$2$$3$" templateAdv="$1$"
+        uid="3cbcc706-a6a2-4add-be6b-1417cc447490" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="2"/>
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="7"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="viewProduct"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="productId"
+        recordRawValue="K9-BD-01" separator="="
+        value="${sous_categoryId}" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&amp;categoryId=DOGS"/>
+    <header name="cookie" value="JSESSIONID=7720789322B48A392E94E674C7D00450"/>
+    <header name="accept-language" value="fr-FR,fr;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Sep 2023 10:23:01 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 3837&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

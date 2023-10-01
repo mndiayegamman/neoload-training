@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SC01_T04_Sous_category" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="40916716-f83b-4382-b150-e8caa810b5bb" weightsEnabled="false">
+    <weighted-embedded-action uid="bad294c2-2f23-412f-b0fc-947e0c9940f8"/>
+    <weighted-embedded-action uid="8d0d4a56-18ca-48db-8f08-d9f457f60c32"/>
+</basic-logical-action-container>

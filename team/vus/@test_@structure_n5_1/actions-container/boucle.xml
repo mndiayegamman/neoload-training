@@ -1,0 +1,5 @@
+<loop-action loop="${myVar}" name="boucle" uid="e135add3-70e2-486b-8047-af2cc719ee67">
+    <embedded-action>40916716-f83b-4382-b150-e8caa810b5bb</embedded-action>
+    <embedded-action>95edfc15-94ce-429d-9326-7e3ff63fe12c</embedded-action>
+    <embedded-action>7dfd59d6-3fcf-4bdc-bc9c-ae6b21b64fbd</embedded-action>
+</loop-action>

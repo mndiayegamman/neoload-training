@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/actions/Catalog.action_2" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@jpetstore1/%resources%/recorded-artifacts/e7ae41f5-2f9d-40d4-8a34-662e7c06d331.zip"
+    slaProfileEnabled="false" thinkTime="4015"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e7ae41f5-2f9d-40d4-8a34-662e7c06d331">
+    <embedded-action>9cb7775d-a367-4011-b0a1-9196635991ab</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9078342f-81a7-46a3-bbb2-75885de635d2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postType="6"
+    recordedArtifactZipFileName="team/vus/@jpetstore1/%resources%/recorded-artifacts/e7ae41f5-2f9d-40d4-8a34-662e7c06d331.zip"
+    recordedResponseCode="200"
+    refererUid="d8c78e78-379c-44dd-b9ea-d278de0a18af"
+    responseSize="3741" serverUid="petstore.octoperf.com"
+    slaProfileEnabled="false" uid="9cb7775d-a367-4011-b0a1-9196635991ab" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_09ad6a49-89f4-457e-8942-a5e9d33df7db.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_09ad6a49-89f4-457e-8942-a5e9d33df7db.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="viewCategory"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="categoryId"
+        recordRawValue="DOGS" separator="=" value="DOGS" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&amp;categoryId=FISH"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=4F14C088C3D32A85BD313584CF4E952A"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;116&quot;, &quot;Not)A;Brand&quot;;v=&quot;24&quot;, &quot;Google Chrome&quot;;v=&quot;116&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 19 Sep 2023 13:09:52 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 3741&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="6"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

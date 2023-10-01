@@ -1,0 +1,72 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/actions/Catalog.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/b8f684f4-63de-4748-9b28-19deef0c1515.zip"
+    slaProfileEnabled="false" thinkTime="2957"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b8f684f4-63de-4748-9b28-19deef0c1515">
+    <embedded-action>58c5e825-1c47-47a1-b266-ff6e21794e92</embedded-action>
+    <embedded-action>57f8c7e2-93e6-4804-9d8c-55975320c0c3</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_5004e676-7d28-4696-b6b7-879a68a551a3.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Catalog.action"
+    path="/actions/Catalog.action" postType="6"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/b8f684f4-63de-4748-9b28-19deef0c1515.zip"
+    recordedResponseCode="200" responseSize="3527"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="58c5e825-1c47-47a1-b266-ff6e21794e92" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_121e81ef-bde9-4b2d-bfcc-95bffdae8036.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_121e81ef-bde9-4b2d-bfcc-95bffdae8036.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="viewItem"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="itemId"
+        recordRawValue="EST-6" separator="=" value="${animalId}" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&amp;productId=K9-BD-01"/>
+    <header name="cookie" value="JSESSIONID=7720789322B48A392E94E674C7D00450"/>
+    <header name="accept-language" value="fr-FR,fr;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Sep 2023 10:23:14 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 3527&#xd;
+content-language: en&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;12312-1645112688000&quot;" enabled="false"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/images/dog2.gif"
+    path="/images/&quot;${categoryId}1&quot;.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@test_@structure_n5_1/%resources%/recorded-artifacts/b8f684f4-63de-4748-9b28-19deef0c1515.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="57f8c7e2-93e6-4804-9d8c-55975320c0c3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9bc4462a-c5fb-4f8f-9ff1-43049b1810cf.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5f0155e0-c2c6-4340-babd-c9a33e4ac8e1.txt</requestContentFileDescription>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action?viewItem=&amp;itemId=EST-6"/>
+    <header name="cookie" value="JSESSIONID=7720789322B48A392E94E674C7D00450"/>
+    <header name="accept-language" value="fr-FR,fr;q=0.5"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Sep 2023 10:23:14 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 12312&#xd;
+accept-ranges: bytes&#xd;
+etag: W/"12312-1645112688000"&#xd;
+last-modified: Thu, 17 Feb 2022 15:44:48 GMT&#xd;
+strict-transport-security: max-age=15724800; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
